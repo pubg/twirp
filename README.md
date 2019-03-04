@@ -14,10 +14,10 @@ clients. It's similar to [gRPC](http://www.grpc.io/), but without the custom
 HTTP server and transport implementations: it runs on the standard library's
 extremely-well-tested-and-high-performance `net/http` Server. It can run on HTTP
 1.1, not just http/2, and supports JSON clients for easy integrations across
-languages
+languages.
 
 Twirp handles routing and serialization for you in a well-tested, standardized,
-thoughtful way so you don't have to. Serialization and deserialization code is
+thoughtful way, so you don't have to. Serialization and deserialization code is
 error-prone and tricky, and you shouldn't be wasting your time deciding whether
 it should be "POST /friends/:id/new" or "POST /:id/friend" or whatever. Just
 get to the real work of building services!
